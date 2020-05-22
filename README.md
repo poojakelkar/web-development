@@ -4,6 +4,4 @@
 * Materials created by me during studying web-development.
 * Materials created by me during studying web-development.
 * This repository contains simple html and css templates
-* Contains Basic CSS Codes
-
-HTML
+* Contains Basic CSS codes
