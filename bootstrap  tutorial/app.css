@@ -13,7 +13,7 @@ html{
 #content
 {
 	text-align: center;
-	padding-top: 25%
+	padding-top: 30%
 }
 h1{
 	font-weight: 700;
@@ -24,7 +24,4 @@ hr{
 	width: 400px;
 	border-top: 1px solid #f8f8f8;
 	border-bottom: 1px solid rgb(0,0,0.2);
-}
-#btn btn-default btn-lg{
-	background-attachment:url(path/to/font-awesome/css/font-awesome.min.css);
 }
