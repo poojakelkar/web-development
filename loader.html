@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div id="loader">Loading.....</div>
+<input type="button" value="Loaded" onclick="javascript:showPage();">
+
+<div style="display:none;" id="myDiv">
+  <h2>Tada!</h2>
+  <p>Some text in my newly loaded page..</p>
+</div>
+
+<script>
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("myDiv").style.display = "block";
+  
+}
+</script>
+
+</body>
+</html>
