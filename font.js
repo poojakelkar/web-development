@@ -3,15 +3,19 @@ var substract = document.getElementById('sub')
 
 
 function adding(){
-    var text = document.getElementById('change')
-      n 
+  txt = document.getElementById('change');
+  style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+  currentSize = parseFloat(style);
+  txt.style.fontSize = (currentSize + 2) + 'px';
 }
 
 
 
 function sub(){
-    var font = document.getElementById('change')
-    console.log(font)
+  txt = document.getElementById('change');
+  style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+  currentSize = parseFloat(style);
+  txt.style.fontSize = (currentSize - 2) + 'px';
 
 //   document.getElementById('change'). style. fontSize = "0rem"
   }
