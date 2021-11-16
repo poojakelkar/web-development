@@ -4,7 +4,7 @@ var substract = document.getElementById('sub')
 
 function adding(){
     var text = document.getElementById('change')
-    console.log(text)
+      n 
 }
 
 
