@@ -8,7 +8,7 @@ function adding() {
     txt.style.fontSize = currentSize + 2 + "px";
 }
 
-function sub() {
+function substract() {
     txt = document.getElementById("change");
     style = window.getComputedStyle(txt, null).getPropertyValue("font-size");
     currentSize = parseFloat(style);
@@ -18,4 +18,4 @@ function sub() {
 }
 
 added.addEventListener("click", adding);
-substract.addEventListener("click", sub);
+substract.addEventListener("click", substract);
