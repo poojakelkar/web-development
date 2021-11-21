@@ -1,12 +1,12 @@
 const email = document.getElementById("email")
-const pass =document.getElementById("pass")
+const pass =document.getElementById("password")
 const submit =document.getElementById("submit")
 const output =document.getElementById("output")
 
 
 function check(){
     
-    if(pass.value){
+    if(pass.value.includes(email.value)){
         output.innerText = "please dont add username in password"
     }
     else{
