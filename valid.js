@@ -7,7 +7,7 @@ const output =document.getElementById("output")
 function check(){
     
     if(pass.value.includes(email.value)){
-        output.innerText = "please dont add username in password"
+        output.innerText = "please don't add username in password"
     }
     else{
         output.innerText = "submitted"
