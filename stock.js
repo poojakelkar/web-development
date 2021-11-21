@@ -1,5 +1,5 @@
-const stock = document.getElementById("stock-name");
-const submit = document.getElementById("submit");
+let stock = document.getElementById("stock-name");
+let submit = document.getElementById("submit");
 
 var serverURL = "https://stock-api.desaihetav.repl.co/current-price/";
 
@@ -8,7 +8,7 @@ function fetchURL(input) {
 }
 
 function fetchAPI() {
-    stock = stock.toUpperCase();
+    stock = stock.value.toUpperCase();
     fetch(fetchURL(stock))
         .then((response) => response.json())
         .then((json) => {
