@@ -7,32 +7,16 @@
     <title>Document</title>
 </head>
 <body>
-    <script>
-        function converth1(){
-          
-          var text1 = document.querySelector('#change-header');
-            text1.outerHTML = '<h1>' + text1.innerHTML + '</h1>';
-        }
-    </script>
-    <script>
-        function converth2(){
-            var text2 = document.querySelector('#change-header');
-            text2.outerHTML = '<h2>' + text2.innerHTML + '</h2>';
-        }
-    </script>
-    <script>
-        function converth3(){
-            var text3 = document.querySelector('#change-header');
-            text3.outerHTML = '<h3>' + text3.innerHTML + '</h3>';
-        }
-    </script>
+    
 
+    <script src="header.js"></script>
 
-        <p id='change-header'>Hello I am pooja</p>
+        <input id='heading'></input>
+        <div id="output"></div>
 
-        <input type="button" value="h1" onclick="javascript:converth1();">
-        <input type="button" value="h2" onclick="javascript:converth2();">
-        <input type="button" value="h3" onclick="javascript:converth3();">
+        <button id="h1"  >H1</button>
+        <button id="h2"   >H2</button>
+        <button id="h3"  >H3</button>
 
 
     

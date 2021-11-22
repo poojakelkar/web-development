@@ -7,7 +7,7 @@ fetchBtn.addEventListener('click', function () {
     'https://otpgenerator.ishanjirety.repl.co/get-otp/?name=' + userName.value
   )
     .then(function (res) {
-      return res.json()
+      return res.json
     })
     .then(function (res) {
       console.log(res)

@@ -10,7 +10,7 @@ input.addEventListener('change', function (event) {
 
 h1btn.addEventListener('click', function () {
   output.style.fontSize = '32px'
-  input.style.fontSize = '32px'
+
 })
 h2btn.addEventListener('click', function () {
   output.style.fontSize = '24px'
