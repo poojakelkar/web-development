@@ -2,7 +2,7 @@ var inputTag = document.getElementById("heading");
 var h1 = document.getElementById("h1");
 var h2 = document.getElementById("h2");
 var h3 = document.getElementById("h3");
-var output = document.getElementById("output");
+var output = document.getElementById("outputDisplay");
 
 function inputChange(event) {
     output.innerText = event.target.value;
