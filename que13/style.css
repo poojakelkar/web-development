@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&display=swap');
+
+body {
+  font-family: 'Estonia', cursive;
+}
+
+:root {
+  --primary: red;
+  --secondary: blue;
+}
+
+#h1btn {
+  color: var(--primary);
+}
+#h2btn {
+  color: var(--secondary);
+}
+p {
+  font-size: x-large;
+  font-weight: bold;
+}
