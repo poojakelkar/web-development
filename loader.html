@@ -5,22 +5,13 @@
 </head>
 <body>
 
-<div id="loader">Loading.....</div>
-<input type="button" value="Loaded" onclick="javascript:showPage();">
+<p id="loader">Loading.....</p>
 
-<div style="display:none;" id="myDiv">
-  <h2>Tada!</h2>
-  <p>Some text in my newly loaded page..</p>
-</div>
 
-<script>
+<button id="click" value="Loaded">Submit</button>
 
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-  
-}
-</script>
 
+
+<script src="loader.js"></script>
 </body>
 </html>
