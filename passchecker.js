@@ -5,7 +5,7 @@ var msg = document.getElementById('message')
 
 
 function check(){
-    if(password.length>=10 && !password.ariaValueMax.includes(email.value)){
+    if(password.length>=10 && !password.value.includes(email.value)){
         msg.innerText = "Done"
     }
     else{
