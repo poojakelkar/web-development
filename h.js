@@ -1,4 +1,5 @@
-var submitBtn = document.getElementById("")
+var submitBtn = document.getElementById("submit")
+var display = document.getElementById("output")
 
 
 var person1 = {
@@ -14,11 +15,11 @@ var person2 = {
 
 function age(){
     if(person1.age>person2.age){
-        console.log(person1.name+person1.age+"Is greater age")
+        display.innerText = person1.name+person1.age+"Is greater age"
     }
     else{
-        console.log(person2.name+person2.age+"Is greater age")
+        display.innerText = person2.name+person2.age+"Is greater age"
     }
 }
 
-age()
+submitBtn.addEventListener("click",age)
