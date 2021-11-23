@@ -1,5 +1,5 @@
 var added = document.getElementById("add");
-var substract = document.getElementById("sub");
+var substracted = document.getElementById("sub");
 
 function adding() {
     txt = document.getElementById("change");
@@ -18,4 +18,4 @@ function substract() {
 }
 
 added.addEventListener("click", adding);
-substract.addEventListener("click", substract);
+substracted.addEventListener("click", substract);
