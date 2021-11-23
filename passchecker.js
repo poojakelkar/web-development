@@ -5,11 +5,11 @@ var msg = document.getElementById('message')
 
 
 function check(){
-    if(password.length==10){
+    if(password.length>=10 && !password.ariaValueMax.includes(email.value)){
         msg.innerText = "Done"
     }
     else{
-        msg.innerText = "Password length is to short"
+        msg.innerText = "Password length is to short and don not enter username"
     }
    
 }
