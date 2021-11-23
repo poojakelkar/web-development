@@ -1,21 +1,16 @@
-var added = document.getElementById("add");
-var substracted = document.getElementById("sub");
+const textEle = document.getElementById('change');
+const inc = document.getElementById('add');
+const dec = document.getElementById('sub');
 
-function adding() {
-    txt = document.getElementById("change");
-    style = window.getComputedStyle(txt, null).getPropertyValue("font-size");
-    currentSize = parseFloat(style);
-    txt.style.fontSize = currentSize + 2 + "px";
-}
+let fontSize = 1
 
-function substract() {
-    txt = document.getElementById("change");
-    style = window.getComputedStyle(txt, null).getPropertyValue("font-size");
-    currentSize = parseFloat(style);
-    txt.style.fontSize = currentSize - 2 + "px";
+inc.addEventListener('click', function(){
+  fontSize = fontSize + 1 
+  textEle.style.fontSize = (fontSize*2)+'px'
+})
+dec.addEventListener('click', function(){
+    fontSize = fontSize - 1 
+  textEle.style.fontSize = (fontSize*2)+'px'
+})
 
-    //   document.getElementById('change'). style. fontSize = "0rem"
-}
-
-added.addEventListener("click", adding);
-substracted.addEventListener("click", substract);
+textEle.style.fontSize
