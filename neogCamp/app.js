@@ -9,7 +9,7 @@ function convert() {
     if ((kilovalue = Number)) {
         meter.innerHTML = "<h1>" + kilo.value * 1000 + "</h1>";
     } else {
-        meter.innerHTML = "<h1>" + "please enter number " + "</h1>";
+        meter.innerHTML = "<h1>" + 'please enter number' + "</h1>";
     }
 }
 
